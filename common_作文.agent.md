@@ -2,8 +2,9 @@
 name: "作文エージェント"
 description: "システム内部の成果物やステートを、指定された出力ロジックに基づいてキャラクターエージェントへ橋渡しする対話・出力制御エージェント"
 tools: ['agent', 'read', 'web']
-target-character: "ギャルエージェント"
 user-invocable: false
+target-character: "ギャルエージェント"
+agents: ['ギャルエージェント']
 ---
 
 # 🤖 ペルソナと役割 (Persona & Role)
